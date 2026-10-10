@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    chunky_png (1.4.0)
+    ruby-sdl2 (0.3.7)
+
+PLATFORMS
+  ruby
+  x86_64-linux-gnu
+
+DEPENDENCIES
+  chunky_png
+  ruby-sdl2
+
+CHECKSUMS
+  bundler (4.0.22) sha256=d8d5ec84c8555e0af71db63ed7aee4d1a8fb839ec46d84212d61979242a5d75a
+  chunky_png (1.4.0) sha256=89d5b31b55c0cf4da3cf89a2b4ebc3178d8abe8cbaf116a1dba95668502fdcfe
+  ruby-sdl2 (0.3.7) sha256=16f9be9c6883ed5054d34af0a5bedecaa7bf2746d344b8f7729350c5bcff5bc6
+
+BUNDLED WITH
+  4.0.22
