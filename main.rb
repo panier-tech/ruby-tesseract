@@ -1,7 +1,7 @@
 
 require_relative "renderer"
 require_relative "geometry"
-require_relative "rubik4d"
+require_relative "tesseract"
 
 WIDTH = 640
 HEIGHT = 480

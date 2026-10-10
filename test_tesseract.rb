@@ -1,5 +1,5 @@
 
-require_relative "rubik4d"
+require_relative "tesseract"
 
 model = Rubik4D.build
 

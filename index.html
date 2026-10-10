@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ruby Tesseract</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      background: #181a20;
+      color: #eee;
+      font-family: system-ui, sans-serif;
+      text-align: center;
+    }
+
+    canvas {
+      display: block;
+      width: min(100%, 640px);
+      height: auto;
+      margin: 1.5rem auto;
+      border: 1px solid #444;
+    }
+
+    button {
+      padding: 0.5rem 1rem;
+      margin: 0.25rem;
+      cursor: pointer;
+    }
+
+    #status {
+      color: #9ccfea;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ruby Tesseract</h1>
+  <p>4次元超立方体の回転・投影デモ</p>
+
+  <canvas id="screen" width="640" height="480"></canvas>
+
+  <p id="status"></p>
+
+  <button id="toggle">回転 ON / OFF</button>
+  <button id="reset">リセット</button>
+
+  <p>
+    1–6: 回転平面を変更 /
+    ← →: 回転方向 /
+    Space: 停止・再開 /
+    R: リセット
+  </p>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
